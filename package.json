@@ -1,0 +1,23 @@
+{
+  "name": "drunktopia",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "homepage": "https://Juli0931.github.io/DrunktopiaGame",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d dist"
+  },
+  "devDependencies": {
+    "gh-pages": "^6.1.1",
+    "vite": "^5.1.4"
+  },
+  "dependencies": {
+    "@vitejs/plugin-react": "^4.2.1",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0"
+  }
+}

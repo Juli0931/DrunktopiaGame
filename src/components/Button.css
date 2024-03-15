@@ -1,0 +1,33 @@
+button {
+  width: 280px;
+  height: 50px;
+  border: none;
+  outline: none;
+  padding: 10px 20px;
+  font-size: 14px;
+  font-weight: 700;
+  color: #fff;
+  border-radius: 8px;
+  transition: all ease 0.1s;
+}
+
+button:active {
+  transform: translateY(5px);
+  box-shadow: 0px 0px 0px 0px;
+}
+
+
+.TipsyDare {
+  background-color: #16B4F2;
+  box-shadow: 0px 5px 0px 0px #73d7ff;
+}
+
+.LuckyTicket {
+  background-color: #F29F05;
+  box-shadow: 0px 5px 0px 0px #ffc455;
+}
+
+.GoBack {
+  background-color: #F29F05;
+  box-shadow: 0px 5px 0px 0px #ffc455;
+}

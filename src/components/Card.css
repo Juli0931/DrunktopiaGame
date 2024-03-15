@@ -1,0 +1,43 @@
+.card {
+  width: 280px;
+  height: 350px;
+  font-family: Arial, Helvetica, sans-serif;
+  position: relative;
+  border-radius: 8px;
+}
+
+.icon {
+  padding-left: 180px;
+  padding-top: 150px;
+  position: relative;
+}
+
+.icon img {
+  width: 80px;
+  fill: #ffffff76;
+}
+
+.card-name {
+  text-transform: uppercase;
+  font-weight: 900;
+  font-size: 24px;
+  color: rgb(255, 255, 255);
+  padding: 35px;
+  line-height: 23px;
+}
+
+.body-text {
+  font-size: 17px;
+  font-weight: 900;
+  padding: 60px 40px 0;
+  color: #ffffff;
+  position: absolute;
+  top: 40px;
+  left: 1px;
+  line-height: 23px;
+}
+
+.CardContent .styled-text {
+  font-style: italic;
+  font-weight: bolder;
+}
